@@ -1,0 +1,31 @@
+{
+  "name": "rehype-typocaps",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Wrap acronyms and abbreviations in a tag, so you can style them",
+  "main": "src/index.js",
+  "repository": "git@github.com:AnhNhan/rehype-typocaps.git",
+  "author": "Anh Nhân Nguyễn <anhnhan@anhnhan.de>",
+  "license": "Apache 2.0",
+  "packageManager": "yarn@4.6.0",
+  "scripts": {
+    "test:unit": "vitest",
+    "test": "yarn test:unit -- --run"
+  },
+  "dependencies": {
+    "hast-util-is-element": "^3.0.0",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/hast": "^3.0.4",
+    "@typescript-eslint/eslint-plugin": "^8.21.0",
+    "@typescript-eslint/parser": "^8.21.0",
+    "hast": "^1.0.0",
+    "hastscript": "^9.0.0",
+    "prettier": "^3.4.2",
+    "rehype-parse": "^9.0.1",
+    "rehype-stringify": "^10.0.1",
+    "unified": "^11.0.5",
+    "vitest": "^3.0.4"
+  }
+}
